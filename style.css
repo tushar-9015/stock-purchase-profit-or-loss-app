@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(202, 136, 77);
+    --secondary-color: rgb(41, 43, 41);
+}
+
+body {
+    background-color:rgb(255, 240, 221);
+    background-repeat: no-repeat;
+}
+
+main {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin: 20vh 0 10vh;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+label,
+input {   
+    display: block;
+    color: var(--secondary-color);
+
+}
+
+label {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input {
+    background-color: white;
+    font-size: large;
+    padding: 0.2rem 1rem;
+    margin: 0.5rem auto 1rem;
+}
+
+button {
+    padding: 0.2rem 2rem;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+#output {
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: x-large;
+    color: var(--primary-color);
+    padding: 2 rem;
+    text-size-adjust: box;
+}
+
+footer {
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer p {
+    font-size: x-large;
+    color: var(--primary-color);
+}
+
+a, 
+i {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
